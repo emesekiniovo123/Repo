@@ -1,25 +1,21 @@
 {
-  "name": "Online Server Books API",
+  "name": "express-book-review",
   "version": "1.0.0",
-  "description": "RESTful Book Review API",
-  "main": "index.js",
+  "description": "Book review API built from scratch for the final project",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "keywords": [
     "express",
-    "jwt",
-    "books",
-    "rest-api"
+    "book",
+    "reviews",
+    "node"
   ],
-  "author": "Josiah Emesekiniovo",
+  "author": "",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "express-session": "^1.18.0",
-    "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.1.0"
+    "express": "^4.21.2"
   }
 }
